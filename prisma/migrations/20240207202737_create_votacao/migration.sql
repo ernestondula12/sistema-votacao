@@ -1,0 +1,9 @@
+-- CreateTable
+CREATE TABLE "Votacao" (
+    "id" TEXT NOT NULL,
+    "titulo" TEXT NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "Votacao_pkey" PRIMARY KEY ("id")
+);
